@@ -2,27 +2,32 @@ body{
     background-color: black;
     color: rgb(137, 121, 252);
 }
-
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .LeftAlign{
-    border: 5px solid;
-    border-color: rgb(249, 249, 87);
-    float: left;
-    height: 25px;
-    width: 35%;
+    border: 5px solid rgb(249, 249, 87);
+   flex: 0 0 auto;
+   color: rgb(137, 121, 252);
+   box-sizing: border-box;
+
 }
 
 .CenterAlign{ 
-    border: 5px solid;
-    border-color: rgb(249, 249, 87);
-    float: left;
-    height: 25px;
-    width: 35%;
+    border: 5px solid rgb(249, 249, 87);
+     flex: 0 0 auto;
+   color: rgb(137, 121, 252);
+   box-sizing: border-box;
+   text-align: justify;
 }
 
 .CenterAlign{
-     border: 5px solid;
-    border-color: rgb(249, 249, 87);
-    float: left;
-    height: 25px;
-    width: 35%;
+     border: 5px solid rgb(249, 249, 87);
+   box-sizing: border-box;
+color: rgb(137, 121, 252);
+text-align: justify;
+flex: 0 0 auto;
 }
+    
